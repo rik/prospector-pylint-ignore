@@ -1,0 +1,13 @@
+strictness: veryhigh
+max-line-length: 88
+member-warnings: true
+uses:
+    - django
+pep8:
+    run: false
+pyflakes:
+    run: false
+pylint:
+    disable:
+        - line-too-long
+test-warnings: true
